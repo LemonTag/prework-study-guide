@@ -7,12 +7,6 @@ function listTopics() {
     }
   }
 
-const shapes = ["triangle", "square", "pentagon", "circle"];
-console.log(shapes[0]);
-console.log(shapes[1]);
-console.log(shapes[2]);
-console.log(shapes[3]);
-
 
   function selectTopic() {
     if (randomTopic === 'HTML') {
@@ -34,9 +28,3 @@ listTopics();
 
 console.log('Which topic should we study first?');
 selectTopic();
-
-<ul>
-<li>A variable is a named container that allows us to store data in our code.</li>
-<li>Control flow is the order in which a computer executes code in a script.</li>
-<li>Working on the website even though its still breaking for some reason</li>
-</ul>
